@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+    padding: 0px 10%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+nav a {
+    color: #e5e7eb;
+
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    height: 50vh;
+    margin: auto;
+}
+
+.left,
+.right {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    min-height: 266px;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    color:#f9faf8;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+.information {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+h2 {
+    margin: 0 0 50px 0;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 0 10%;
+    flex-wrap: wrap;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+}
+
+.card p {
+    width: 158px;
+}
+
+.testimonial {
+    background-color: #e5e7eb;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 0 10%;
+}
+
+.testimonial p {
+    margin-bottom: 0;
+}
+
+h4 {
+  text-align: right;  
+  margin-top: 0;
+}
+
+.sign-up {
+    color: #f9faf8;
+    padding: 0 10%;
+}
+
+.sign-up h2,
+.sign-up p {
+    margin: 0;
+}
+
+.sign-up .container {
+    background-color: #3882f6;
+    margin: 80px auto;
+    max-width: 1000px;
+    padding: 40px 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sign-up button {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    flex-grow: 0;
+}
+
+.text p {
+    color: #e5e7eb;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
+    text-align: center;
+}
